@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #001520 16.62%, #002236 85.61%);
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-imagem {
+    /* height: 72px;*/
+    max-width: 100%;
+
+}
+
+#logocabecalho {
+    height: 72px;
+}
+
+@media(max-width: 600px) {
+    #logocabecalho {
+        height: 45px;
+    }
+}
+
+@media(max-width: 800px) and (min-width: 600px) {
+    #logocabecalho {
+        height: 55px;
+    }
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    width: 77px;
+    font-size: 20px;
+    border: none;
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#curiosidades{
+    padding-left: 37px;
+    display: flex;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    
+    color: aliceblue;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous','Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    color: aliceblue;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: rgb(0, 174, 243);
+    width: 160px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(62, 145, 255, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #d6e8ff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color:rgb(0, 210, 247);
+}
+
+.conteudo-principal-imagem {
+    height: 500px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid  #FFF2E7;
+    padding-top: 45px;
+    font-family: 'Righteous','Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid  #FFF2E7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.rodape-imagem{
+    height: 50px;
+    margin-top: 15px;
+    
+}
+
+#desenvolvimento {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#data-desenvilvimento {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
